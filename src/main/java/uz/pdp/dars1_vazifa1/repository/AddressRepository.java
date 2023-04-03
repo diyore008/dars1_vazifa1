@@ -1,2 +1,7 @@
-package uz.pdp.dars1_vazifa1.repository;public interface AddressRepository {
+package uz.pdp.dars1_vazifa1.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import uz.pdp.dars1_vazifa1.entity.Address;
+
+public interface AddressRepository extends JpaRepository<Address, Integer> {
 }
